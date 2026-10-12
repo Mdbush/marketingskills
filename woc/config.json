@@ -1,0 +1,12 @@
+{
+  "company": "World of Challenge Cars",
+  "website": "https://www.worldofchallenge.com",
+  "currency": "AED",
+  "primaryMarkets": ["Nigeria", "Libya", "Algeria", "Uganda", "Cameroon"],
+  "crm": "Zoho CRM",
+  "evidenceStore": "Google Drive",
+  "automation": "Make",
+  "websitePlatform": "Webflow",
+  "vehiclePolicy": "new-zero-km",
+  "stages": ["lead", "qualified", "rfq", "quote", "won", "lost"]
+}

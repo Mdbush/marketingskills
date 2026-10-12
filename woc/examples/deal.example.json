@@ -1,0 +1,30 @@
+{
+  "stage": "rfq",
+  "source": "synthetic-example",
+  "sourceRecordId": "example-001",
+  "destinationCountry": "Nigeria",
+  "destinationPort": "",
+  "model": "EXAMPLE VEHICLE — replace with verified model",
+  "quantity": 5,
+  "contact": { "email": "buyer@example.com" },
+  "newZeroKm": true,
+  "steering": "LHD",
+  "specification": "",
+  "supplierEvidence": "",
+  "destinationEvidence": "",
+  "supplierPriceValidUntil": "",
+  "incoterm": "CIF",
+  "incotermLocation": "",
+  "paymentTerms": "",
+  "marketingConsent": false,
+  "minimumGrossMarginPercent": 8,
+  "salePricePerUnit": 120000,
+  "costs": {
+    "currency": "AED",
+    "vehiclePerUnit": 100000,
+    "freightPerUnit": 4000,
+    "insurancePerUnit": 500,
+    "exportFeesPerUnit": 1000,
+    "otherPerUnit": 500
+  }
+}

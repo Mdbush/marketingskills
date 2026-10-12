@@ -1,0 +1,2201 @@
+{
+  "scope": "Default-branch shallow snapshots; no history scan, private security-alert access or external service audit.",
+  "repositories": [
+    {
+      "repo": "DesktopCommanderMCP",
+      "sha": "78100e6a07d93bd1fc09de5a425f7dce22b4a652",
+      "files": 296,
+      "workflows": [
+        {
+          "path": ".github/workflows/codespell.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "pushed_at": "2026-07-10T20:11:58Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://desktopcommander.app/",
+      "parent": "wonderwhy-er/DesktopCommanderMCP",
+      "woc_recommendation": "Hold",
+      "woc_reason": "Powerful filesystem/process access; evaluate only for a specific runtime need."
+    },
+    {
+      "repo": "Mdbush",
+      "sha": "feaa30298e551aa479b1443012b74e29c34c7489",
+      "files": 530,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/growth-engine.yml",
+          "review_flags": [
+            "scheduled credentialed workflow",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": false,
+      "description": "Config files for my GitHub profile.",
+      "pushed_at": "2026-07-10T23:24:52Z",
+      "open_issues_count": 0,
+      "default_branch": "claude/llm-council-skill-dhglrl",
+      "homepage": "https://github.com/Mdbush",
+      "parent": null,
+      "woc_recommendation": "Separate application",
+      "woc_reason": "SoloKit storefront; security fixes prepared on a branch; not the WOC Webflow site."
+    },
+    {
+      "repo": "OfficeCLI",
+      "sha": "1171d919b59a5fd23fd0bbbd43cc3eb0bcad4a3b",
+      "files": 1188,
+      "workflows": [
+        {
+          "path": ".github/workflows/build.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/publish-npm.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/publish-pypi.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/publish-sdk.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/sdk-smoke.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/skill-parity.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "pushed_at": "2026-07-10T13:23:49Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://officecli.ai",
+      "parent": "iOfficeAI/OfficeCLI",
+      "woc_recommendation": "Optional",
+      "woc_reason": "Commercial documents after runtime validation."
+    },
+    {
+      "repo": "RuView",
+      "sha": "e6f26e9ac982aadaa18c8271ec65d29a302e49ec",
+      "files": 2651,
+      "workflows": [
+        {
+          "path": ".github/workflows/aether-arena-harness.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/bench-regression.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/bfld-mqtt-integration.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/cd.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/clone-tracking.yml",
+          "review_flags": [
+            "scheduled credentialed workflow",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/cog-ha-matter-release.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/dashboard-a11y.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/dashboard-pages.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/desktop-release.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/firmware-ci.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/firmware-qemu.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/fix-regression-guard.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/mqtt-integration.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/npm-packages.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/nvsim-server-docker.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/pip-release.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/pointcloud-pages.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/ruview-npm-release.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/ruview-swarm-ci.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/security-scan.yml",
+          "review_flags": [
+            "scheduled credentialed workflow",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/sensing-server-docker.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/threejs-pages.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/update-submodules.yml",
+          "review_flags": [
+            "scheduled credentialed workflow",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/verify-pipeline.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "\u03c0 RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection \u2014 all without a single pixel of video.",
+      "pushed_at": "2026-07-10T18:34:47Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://Cognitum.One/RuView",
+      "parent": "ruvnet/RuView",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Unrelated sensing/AI codebase; notebook-style reference and code not deployed for WOC."
+    },
+    {
+      "repo": "TencentDB-Agent-Memory",
+      "sha": "4339e63650920871eb0e8888083a1779d114e3ae",
+      "files": 171,
+      "workflows": [
+        {
+          "path": ".github/workflows/pr-ci.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+      "pushed_at": "2026-06-26T03:31:09Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "",
+      "parent": "TencentCloud/TencentDB-Agent-Memory",
+      "woc_recommendation": "Hold",
+      "woc_reason": "Additional external memory/data store; no verified need or WOC connection."
+    },
+    {
+      "repo": "ai-workflow-hub-2000-",
+      "sha": "90554383a571e0d3f7a3d3790dd2628c29aa3ceb",
+      "files": 2056,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [
+        {
+          "path": "workflows/0924_Code_Respondtowebhook_Process_Webhook.json",
+          "kind": "private-key"
+        }
+      ],
+      "parse_errors": [],
+      "fork": true,
+      "description": "2000+ free N8N AI automation workflows. Discover, copy and use in your projects.",
+      "pushed_at": "2026-07-17T20:24:15Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://ai-workflow-hub-flax.vercel.app/",
+      "parent": "emretasss/AI-Workflow-Hub-2000-",
+      "woc_recommendation": "Hold / security remediation",
+      "woc_reason": "2,055 n8n JSON examples; embedded private key removed from one export."
+    },
+    {
+      "repo": "awesome",
+      "sha": "7cb5c8371c0fe73e5444a42d5542f6280c38b1a6",
+      "files": 23,
+      "workflows": [
+        {
+          "path": ".github/workflows/main.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/repo_linter.sh",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+      "pushed_at": "2026-06-30T18:21:16Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "",
+      "parent": "sindresorhus/awesome",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "awesome-claude-code",
+      "sha": "aa3832513cfbd9e628e2cfbac02360ad99ea747d",
+      "files": 48,
+      "workflows": [
+        {
+          "path": ".github/workflows/handle-resource-submission-commands.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/regenerate-readme.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/update-repo-ticker.yml",
+          "review_flags": [
+            "scheduled credentialed workflow",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/validate-new-issue.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+      "pushed_at": "2026-07-10T21:24:31Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "",
+      "parent": "hesreallyhim/awesome-claude-code",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "awesome-courses",
+      "sha": "e0b02ce4084c3b426304ae03ffcb072f7c8057f3",
+      "files": 3,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": ":books: List of awesome university courses for learning Computer Science!",
+      "pushed_at": "2023-05-04T12:49:34Z",
+      "open_issues_count": 0,
+      "default_branch": "master",
+      "homepage": "",
+      "parent": "prakhar1989/awesome-courses",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "awesome-ios",
+      "sha": "0c8131c4cbf5c8b6d5c54c23e2ee0fbbbe2b8394",
+      "files": 20,
+      "workflows": [
+        {
+          "path": ".github/workflows/main.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/quality-check.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects ",
+      "pushed_at": "2026-06-24T14:58:10Z",
+      "open_issues_count": 0,
+      "default_branch": "master",
+      "homepage": "http://awesomeios.dev",
+      "parent": "vsouza/awesome-ios",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "awesome-mac",
+      "sha": "2fe86855177fabe68ddf6a3f6efb1ef4feca94a9",
+      "files": 45,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "\uf8ff This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "pushed_at": "2026-07-10T07:52:36Z",
+      "open_issues_count": 0,
+      "default_branch": "master",
+      "homepage": "https://git.io/macx",
+      "parent": "jaywcjlove/awesome-mac",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "awesome-openclaw-skills",
+      "sha": "c1f9e9ed98e39c2ceccbf2e02006fcdc8b3d05ee",
+      "files": 35,
+      "workflows": [
+        {
+          "path": ".github/workflows/pr-check.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.\ud83e\udd9e",
+      "pushed_at": "2026-07-10T09:00:01Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://clawskills.sh/",
+      "parent": "VoltAgent/awesome-openclaw-skills",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "awesome-selfhosted",
+      "sha": "396b294abab1b3944cf27b993835cea16781d16e",
+      "files": 6,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "pushed_at": "2026-07-09T15:58:47Z",
+      "open_issues_count": 0,
+      "default_branch": "master",
+      "homepage": "https://awesome-selfhosted.net/",
+      "parent": "awesome-selfhosted/awesome-selfhosted",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "banana-claude",
+      "sha": "a4b5a7e4f592029886a379496cf29980fb6b8824",
+      "files": 41,
+      "workflows": [
+        {
+          "path": ".github/workflows/validate.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "AI image generation skill for Claude Code -- Creative Director powered by Gemini",
+      "pushed_at": "2026-04-13T22:21:27Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://agricidaniel.com/blog/banana-claude-ai-image-generation",
+      "parent": "AgriciDaniel/banana-claude",
+      "woc_recommendation": "Optional",
+      "woc_reason": "Creative tooling after runtime/credential review."
+    },
+    {
+      "repo": "better-chatbot",
+      "sha": "489596fd5200af9bc8588c84269d924f26e3452e",
+      "files": 614,
+      "workflows": [
+        {
+          "path": ".github/workflows/container.yaml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/e2e-tests.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/lint-and-type-check.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/pr-check.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/release.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Formerly Better Chatbot. Navigator is an open-source AI workspace for agents, MCP and workflow automation.",
+      "pushed_at": "2026-06-11T11:49:45Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://app.keinsaas.com/",
+      "parent": "keinsaasforever/better-chatbot",
+      "woc_recommendation": "Hold",
+      "woc_reason": "Another application/auth/database stack; no verified WOC configuration."
+    },
+    {
+      "repo": "books-for-bots",
+      "sha": "e2596ec988ae2dbd8b57a234fd8cfb949eeaf01a",
+      "files": 28,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Rust CLI that converts EPUBs into a single YAML-headed Markdown file with per-chapter byte and line offsets, giving LLM agents a navigation API for token-efficient reading.",
+      "pushed_at": "2026-06-06T18:00:00Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": null,
+      "parent": "prime-radiant-inc/books-for-bots",
+      "woc_recommendation": "Reference",
+      "woc_reason": "Document conversion utility; no verified operational dependency."
+    },
+    {
+      "repo": "claude-ads",
+      "sha": "283d9d4917cb7c4f2ce9181e125bb1970f74ab04",
+      "files": 152,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/dependabot-automerge.yml",
+          "review_flags": []
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+      "pushed_at": "2026-06-26T21:03:50Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://claude-ads.md",
+      "parent": "AgriciDaniel/claude-ads",
+      "woc_recommendation": "Use first",
+      "woc_reason": "Paid campaign audit and signal design; access and spend not configured here."
+    },
+    {
+      "repo": "claude-blog",
+      "sha": "49842ea9e7b9a1f6f8a3774a3fcfb082ab6a7d25",
+      "files": 246,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": []
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here.",
+      "pushed_at": "2026-07-03T04:23:49Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://claude-blog.md",
+      "parent": "AgriciDaniel/claude-blog",
+      "woc_recommendation": "Next",
+      "woc_reason": "Export content drafts; verify price and destination rules before publishing."
+    },
+    {
+      "repo": "claude-code",
+      "sha": "7930e1c82d997b013af28673501f3b95569a71cb",
+      "files": 216,
+      "workflows": [
+        {
+          "path": ".github/workflows/auto-close-duplicates.yml",
+          "review_flags": [
+            "scheduled credentialed workflow",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/backfill-duplicate-comments.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/claude-dedupe-issues.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/claude-issue-triage.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/claude.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/issue-lifecycle-comment.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/issue-opened-dispatch.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/lock-closed-issues.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/log-issue-events.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/non-write-users-check.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/remove-autoclose-label.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/sweep.yml",
+          "review_flags": [
+            "scheduled credentialed workflow",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "pushed_at": "2026-07-06T22:51:16Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://code.claude.com/docs/en/overview",
+      "parent": "anthropics/claude-code",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Upstream coding tooling/examples; owning a fork does not install it."
+    },
+    {
+      "repo": "claude-obsidian",
+      "sha": "cb93ff6d82f9c35a08bf6010e7fac36dfddc827b",
+      "files": 211,
+      "workflows": [
+        {
+          "path": ".github/workflows/test.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "pushed_at": "2026-05-28T00:42:43Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://agricidaniel.com/blog/claude-obsidian-ai-second-brain",
+      "parent": "AgriciDaniel/claude-obsidian",
+      "woc_recommendation": "Reference",
+      "woc_reason": "Another knowledge store; retain current evidence ownership in Drive."
+    },
+    {
+      "repo": "claude-seo",
+      "sha": "6cf1ea9fe4c2088b2ad3089797f846850fd66164",
+      "files": 364,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/v2.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [
+        {
+          "path": "skills/seo-google/references/auth-setup.md",
+          "kind": "private-key"
+        }
+      ],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
+      "pushed_at": "2026-07-06T20:48:21Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://claude-seo.md",
+      "parent": "AgriciDaniel/claude-seo",
+      "woc_recommendation": "Use first",
+      "woc_reason": "SEO suite for Claude harness; avoid duplicate installation with Codex equivalent."
+    },
+    {
+      "repo": "claude-shorts",
+      "sha": "a369fad9d84287edbb8fa3ab515f268e770f683b",
+      "files": 57,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Interactive longform-to-shortform video creator \u2014 Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping",
+      "pushed_at": "2026-07-04T02:32:33Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://www.skool.com/ai-marketing-hub-pro/",
+      "parent": "AgriciDaniel/claude-shorts",
+      "woc_recommendation": "Next",
+      "woc_reason": "Short-form vehicle video editing after runtime review."
+    },
+    {
+      "repo": "claude-skills",
+      "sha": "0241f43765572f15146fcef692defbf96d473f37",
+      "files": 4606,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci-quality-gate.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/claude-code-review.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/claude.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/enforce-pr-target.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/pr-issue-auto-close.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/release.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/skill-quality-review.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/skill-security-audit.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/smart-sync.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/static.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/sync-codex-skills.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/virustotal-scan.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [
+        {
+          "path": "engineering-team/skills/senior-security/scripts/secret_scanner.py",
+          "kind": "private-key"
+        },
+        {
+          "path": "engineering/skills/skill-tester/tests/test_security_scorer.py",
+          "kind": "private-key"
+        },
+        {
+          "path": "engineering/terraform-patterns/skills/terraform-patterns/scripts/tf_security_scanner.py",
+          "kind": "aws-key"
+        },
+        {
+          "path": "productivity/handoff/skills/handoff/references/redaction_checklist.md",
+          "kind": "aws-key"
+        },
+        {
+          "path": "productivity/handoff/skills/handoff/references/redaction_checklist.md",
+          "kind": "private-key"
+        },
+        {
+          "path": "productivity/handoff/skills/handoff/scripts/redaction_linter.py",
+          "kind": "github-token"
+        },
+        {
+          "path": "productivity/handoff/skills/handoff/scripts/redaction_linter.py",
+          "kind": "aws-key"
+        }
+      ],
+      "parse_errors": [],
+      "fork": true,
+      "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "pushed_at": "2026-07-07T01:05:13Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://alirezarezvani.medium.com/",
+      "parent": "alirezarezvani/claude-skills",
+      "woc_recommendation": "Selective reference",
+      "woc_reason": "Large skill collection; select only relevant reviewed workflows."
+    },
+    {
+      "repo": "codebase-memory-mcp",
+      "sha": "5554f8a46abf973744f74551405b2404850e38e6",
+      "files": 1812,
+      "workflows": [
+        {
+          "path": ".github/workflows/_build.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/_lint.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/_security.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/_smoke.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/_soak.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/_test.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/bug-repro.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/codeql.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/dco.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/dry-run.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/fast-repro.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/issue-labeler.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/label-actions.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/nightly-soak.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/pages.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/pr.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/release.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/scorecard.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/smoke.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/soak.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/stale.yml",
+          "review_flags": []
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [
+        {
+          "path": "tests/test_pipeline.c",
+          "kind": "github-token"
+        },
+        {
+          "path": "tests/test_pipeline.c",
+          "kind": "private-key"
+        }
+      ],
+      "parse_errors": [],
+      "fork": true,
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph \u2014 average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "pushed_at": "2026-07-07T14:23:25Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://deusdata.github.io/codebase-memory-mcp/",
+      "parent": "DeusData/codebase-memory-mcp",
+      "woc_recommendation": "Optional",
+      "woc_reason": "Code indexing for engineering work; not commercial CRM memory."
+    },
+    {
+      "repo": "codex-seo",
+      "sha": "97c59bcdac3c9538bf0e3ae456c1e73aa387f85a",
+      "files": 319,
+      "workflows": [
+        {
+          "path": ".github/workflows/runners-ci.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/security.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "metadata_error": "HTTP Error 502: Bad Gateway",
+      "woc_recommendation": "Use first",
+      "woc_reason": "SEO suite for Codex harness; validate Webflow and buyer-market pages."
+    },
+    {
+      "repo": "dataforseo-brain",
+      "sha": "17da9a7d74fbab9a830ed756726143fc104eb5b5",
+      "files": 434,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/deploy.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "metadata_error": "HTTP Error 502: Bad Gateway",
+      "woc_recommendation": "Optional",
+      "woc_reason": "API reference; no live market data without a funded connection."
+    },
+    {
+      "repo": "fablesecondbrain",
+      "sha": "58e3869605a527c9d952fce193c03ba9a6fc512a",
+      "files": 583,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/pages.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Public, source-cited Fable 5, Mythos, Claude Code, and agent-operations second brain. Not affiliated with Anthropic.",
+      "pushed_at": "2026-07-09T22:54:31Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://agricidaniel.github.io/fablesecondbrain",
+      "parent": "AgriciDaniel/fablesecondbrain",
+      "woc_recommendation": "Reference",
+      "woc_reason": "Knowledge framework; no WOC configuration found."
+    },
+    {
+      "repo": "github-cheat-sheet",
+      "sha": "746af1b42356973f66627319bbaf4ac5157c5308",
+      "files": 9,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "A list of cool features of Git and GitHub.",
+      "pushed_at": "2024-04-15T20:15:56Z",
+      "open_issues_count": 0,
+      "default_branch": "master",
+      "homepage": "http://git.io/sheet",
+      "parent": "tiimgreen/github-cheat-sheet",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "google-genai-brain",
+      "sha": "d9359f3e0f6fd7d34a4f09bca2eecefc89621115",
+      "files": 1839,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/deploy.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "metadata_error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "woc_recommendation": "Reference",
+      "woc_reason": "GenAI reference material; no verified WOC integration."
+    },
+    {
+      "repo": "local-competitor-map",
+      "sha": "332b2de316f4f5473c99ac289fb1a93b565d6190",
+      "files": 38,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/deploy.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "AI-powered local-competitor intelligence on a photorealistic Google 3D map. Ask in plain English and see who competes with any business, ranked with ratings and reviews.",
+      "pushed_at": "2026-07-05T01:12:32Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://agricidaniel.github.io/local-competitor-map/",
+      "parent": "AgriciDaniel/local-competitor-map",
+      "woc_recommendation": "Optional",
+      "woc_reason": "Local competitor research only; not evidence of overseas buyer demand."
+    },
+    {
+      "repo": "marketingskills",
+      "sha": "30dbd7f793b86f0ec2f007757b333afac93c24db",
+      "files": 388,
+      "workflows": [
+        {
+          "path": ".github/workflows/sync-skills.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/validate-skill.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "pushed_at": "2026-07-06T06:18:24Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://marketing-skills.com",
+      "parent": "coreyhaines31/marketingskills",
+      "woc_recommendation": "Use first",
+      "woc_reason": "WOC operating toolkit, offline quote checks and CI added."
+    },
+    {
+      "repo": "omniroute",
+      "sha": "7163081f5ed2a2104e85c31bfd1588033d43c580",
+      "files": 10582,
+      "workflows": [
+        {
+          "path": ".github/workflows/ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/claude.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/codeql.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/dast-smoke.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/deploy-vps.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/docker-publish.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/electron-release.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/lock-released-branch.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/mutation-redundancy.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/nightly-compat.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/nightly-llm-security.yml",
+          "review_flags": [
+            "scheduled credentialed workflow",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/nightly-mutation.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/nightly-property.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/nightly-release-green.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/nightly-resilience.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/nightly-schemathesis.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/npm-publish.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/opencode-plugin-ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/opencode-provider-ci.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/quality.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/scorecard.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/semgrep.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/wiki-sync.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [
+        {
+          "path": "tests/unit/compression/riskGateDetect.test.ts",
+          "kind": "private-key"
+        },
+        {
+          "path": "tests/unit/compression/riskGateIntegration.test.ts",
+          "kind": "private-key"
+        },
+        {
+          "path": "tests/unit/compression/riskGateStep.test.ts",
+          "kind": "private-key"
+        },
+        {
+          "path": "tests/unit/github-collector.test.ts",
+          "kind": "github-token"
+        },
+        {
+          "path": "tests/unit/github-collector.test.ts",
+          "kind": "private-key"
+        },
+        {
+          "path": "tests/unit/piiSanitizer.test.ts",
+          "kind": "aws-key"
+        },
+        {
+          "path": "tests/unit/sre-redact-logs.test.ts",
+          "kind": "aws-key"
+        }
+      ],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models \u2014 Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "pushed_at": "2026-08-03T21:22:14Z",
+      "open_issues_count": 0,
+      "default_branch": "release/v3.8.50",
+      "homepage": "https://omniroute.online",
+      "parent": "diegosouzapw/OmniRoute",
+      "woc_recommendation": "Hold",
+      "woc_reason": "Large AI router application; no verified WOC deployment or configuration."
+    },
+    {
+      "repo": "open-source-ios-apps",
+      "sha": "a4229843fd95ea9c5f5e1270fcb61e4f369c7c31",
+      "files": 27,
+      "workflows": [
+        {
+          "path": ".github/workflows/ruby.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "metadata_error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    },
+    {
+      "repo": "roslyn",
+      "sha": "2c0ed5be6232d88400bc2e61a50718890819a3df",
+      "files": 32363,
+      "workflows": [
+        {
+          "path": ".github/workflows/backport.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/labeler-cache-retention.yml",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/labeler-predict-issues.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/labeler-predict-pulls.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/labeler-promote.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/labeler-train.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/labeler.md",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/pr-validation.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.",
+      "pushed_at": "2026-07-10T18:29:20Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/",
+      "parent": "dotnet/roslyn",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Upstream compiler; no verified WOC operational dependency."
+    },
+    {
+      "repo": "runtime",
+      "sha": "9d70f0170a6569e3b207346a4a6cfd1cc3b08974",
+      "files": 58141,
+      "workflows": [
+        {
+          "path": ".github/workflows/README.md",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions",
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/agentics-maintenance.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/aspnetcore-sync-checkdiff.ps1",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/aspnetcore-sync.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/backport.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/breaking-change-doc.lock.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/breaking-change-doc.md",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/bump-chrome-version.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/check-no-merge-label.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/check-service-labels.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/ci-failure-fix.lock.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/ci-failure-fix.md",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/ci-failure-scan-feedback.lock.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/ci-failure-scan-feedback.md",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/ci-failure-scan.lock.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/ci-failure-scan.md",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/code-review.lock.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/code-review.md",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/copilot-setup-steps.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/inter-branch-merge-flow.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/jit-format.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/labeler-cache-retention.yml",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/labeler-predict-issues.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/labeler-predict-pulls.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/labeler-promote.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/labeler-train.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/locker.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions",
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/markdownlint-problem-matcher.json",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/markdownlint.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/shared/area-skills.instructions.md",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/shared/create-kbe.instructions.md",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/shared/pat_pool.README.md",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/shared/pat_pool.md",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/skill-validation.yml",
+          "review_flags": [
+            "actions use mutable tags"
+          ]
+        },
+        {
+          "path": ".github/workflows/validate-pat-pool.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [
+        {
+          "path": ".config/CredScanSuppressions.json",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/Common/tests/System/Security/Cryptography/AlgorithmImplementations/DSA/DSAKeyPemTests.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/Common/tests/System/Security/Cryptography/AlgorithmImplementations/EC/ECKeyPemTests.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/Common/tests/System/Security/Cryptography/AlgorithmImplementations/RSA/RSAKeyPemTests.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/Common/tests/System/Security/Cryptography/X509Certificates/TestData.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/Microsoft.Bcl.Cryptography/tests/PemEncodingTests.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/System.Security.Cryptography/src/System/Security/Cryptography/AsymmetricAlgorithm.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/System.Security.Cryptography/src/System/Security/Cryptography/ECAlgorithm.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/System.Security.Cryptography/src/System/Security/Cryptography/RSA.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/System.Security.Cryptography/tests/AsymmetricAlgorithmTests.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/System.Security.Cryptography/tests/ECPemExportTests.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/System.Security.Cryptography/tests/PemEncodingTests.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/System.Security.Cryptography/tests/RSATests.cs",
+          "kind": "private-key"
+        },
+        {
+          "path": "src/libraries/System.Security.Cryptography/tests/X509Certificates/X509Certificate2PemTests.cs",
+          "kind": "private-key"
+        }
+      ],
+      "parse_errors": [],
+      "fork": true,
+      "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+      "pushed_at": "2026-07-10T22:03:20Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "https://docs.microsoft.com/dotnet/core/",
+      "parent": "dotnet/runtime",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Upstream .NET runtime; enormous unrelated codebase, not WOC infrastructure."
+    },
+    {
+      "repo": "skills",
+      "sha": "f0700c74e99be620069f7a98b2a279611a03bcd4",
+      "files": 2314,
+      "workflows": [
+        {
+          "path": ".github/workflows/actionlint.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/agentics-maintenance.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/close-stale-prs.agent.lock.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/close-stale-prs.agent.md",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/codeowners-folder-validation.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/devops-health-check.lock.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/devops-health-check.md",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/devops-health-cleanup.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/devops-health-groom.lock.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/devops-health-groom.md",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/devops-health-investigate.lock.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/devops-health-investigate.md",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/evaluation.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions",
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/fork-infra-check.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/gh-aw-upgrade.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/issue-investigate.lock.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/issue-investigate.md",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/issue-triage-batch.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/issue-triage.lock.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/issue-triage.md",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/markdown-linter.lock.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/markdown-linter.md",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/markdownlint.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/pr-malicious-scan.agent.lock.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/pr-malicious-scan.agent.md",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/pr-triage-batch.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/pr-triage.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/shared/pat_pool.README.md",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/shared/pat_pool.md",
+          "review_flags": [
+            "no explicit token permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/skill-check.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/skill-coverage.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/skill-validator.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/validate-pat-pool.yml",
+          "review_flags": [
+            "scheduled credentialed workflow"
+          ]
+        },
+        {
+          "path": ".github/workflows/vally-evaluation.yml",
+          "review_flags": []
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "pushed_at": "2026-07-07T20:18:46Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "",
+      "parent": "dotnet/skills",
+      "woc_recommendation": "Reference only",
+      "woc_reason": ".NET/C# coding skills; no verified WOC operational dependency."
+    },
+    {
+      "repo": "stitch-skills",
+      "sha": "3f64079d75d025bc5890c73669f27c26a2d80b31",
+      "files": 84,
+      "workflows": [
+        {
+          "path": ".github/workflows/validate-skills.yml",
+          "review_flags": [
+            "no explicit token permissions",
+            "actions use mutable tags"
+          ]
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "metadata_error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "woc_recommendation": "Optional",
+      "woc_reason": "UI development recipes; not connected to WOC Webflow."
+    },
+    {
+      "repo": "superpowers",
+      "sha": "d884ae04edebef577e82ff7c4e143debd0bbec99",
+      "files": 172,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "metadata_error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "woc_recommendation": "Selective reference",
+      "woc_reason": "Development methodology; not a business automation runtime."
+    },
+    {
+      "repo": "system_prompts_leaks",
+      "sha": "d26b0414cb7de3733200af962d1c30950fb173b1",
+      "files": 292,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "metadata_error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "No verified operational use for WOC."
+    },
+    {
+      "repo": "terraform",
+      "sha": "116d525a7242c2beb916f00ccb39ce070f4fac05",
+      "files": 5464,
+      "workflows": [
+        {
+          "path": ".github/workflows/backport.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/build-terraform-cli.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/build.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/changelog-validation.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/checks.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/enforce-changelog.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/equivalence-test-diff.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/equivalence-test-manual-update.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/equivalence-test-update.yml",
+          "review_flags": [
+            "pull_request_target: review checkout and permissions"
+          ]
+        },
+        {
+          "path": ".github/workflows/issue-comment-created.yml",
+          "review_flags": []
+        },
+        {
+          "path": ".github/workflows/lock.yml",
+          "review_flags": []
+        }
+      ],
+      "woc_files": [],
+      "secret_candidates": [
+        {
+          "path": "internal/backend/remote-state/http/testdata/certs/ca.key",
+          "kind": "private-key"
+        },
+        {
+          "path": "internal/backend/remote-state/http/testdata/certs/client.key",
+          "kind": "private-key"
+        },
+        {
+          "path": "internal/backend/remote-state/http/testdata/certs/server.key",
+          "kind": "private-key"
+        },
+        {
+          "path": "internal/backend/remote-state/oci/backend_test.go",
+          "kind": "private-key"
+        },
+        {
+          "path": "internal/communicator/ssh/communicator_test.go",
+          "kind": "private-key"
+        },
+        {
+          "path": "internal/lang/funcs/crypto_test.go",
+          "kind": "private-key"
+        },
+        {
+          "path": "internal/lang/functions_test.go",
+          "kind": "private-key"
+        }
+      ],
+      "parse_errors": [],
+      "fork": true,
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "pushed_at": "2026-07-10T21:14:28Z",
+      "open_issues_count": 0,
+      "default_branch": "main",
+      "homepage": "http://developer.hashicorp.com/terraform",
+      "parent": "hashicorp/terraform",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Infrastructure codebase; no WOC deployment definitions found."
+    },
+    {
+      "repo": "the-book-of-secret-knowledge",
+      "sha": "7d37069a361d3fd9f214480755f7969744e866fa",
+      "files": 6,
+      "workflows": [],
+      "woc_files": [],
+      "secret_candidates": [],
+      "parse_errors": [],
+      "metadata_error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "woc_recommendation": "Reference only",
+      "woc_reason": "Curated lists or reference content; no WOC implementation found."
+    }
+  ],
+  "syntaxChecks": {
+    "python": {
+      "checked": 1422,
+      "errors": [
+        {
+          "path": "audit/RuView/references/script_1.py",
+          "error": "invalid syntax (script_1.py, line 2)"
+        },
+        {
+          "path": "audit/runtime/src/tests/Common/scripts/exclusion.py",
+          "error": "Missing parentheses in call to 'print'. Did you mean print(...)? (exclusion.py, line 24)"
+        },
+        {
+          "path": "audit/runtime/src/tests/Common/scripts/lst_creator.py",
+          "error": "Missing parentheses in call to 'print'. Did you mean print(...)? (lst_creator.py, line 228)"
+        },
+        {
+          "path": "audit/runtime/src/tests/Common/scripts/migrate-tags.py",
+          "error": "Missing parentheses in call to 'print'. Did you mean print(...)? (migrate-tags.py, line 23)"
+        },
+        {
+          "path": "audit/runtime/src/tests/Common/scripts/smarty_error_parser.py",
+          "error": "Missing parentheses in call to 'print'. Did you mean print(...)? (smarty_error_parser.py, line 37)"
+        }
+      ]
+    },
+    "workflows": {
+      "checked": 204,
+      "errors": []
+    },
+    "n8n_json": {
+      "checked": 2055,
+      "errors": []
+    },
+    "marketing_cli": {
+      "checked": 64,
+      "errors": []
+    }
+  }
+}

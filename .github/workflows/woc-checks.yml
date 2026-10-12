@@ -1,0 +1,23 @@
+name: WOC tools checks
+on:
+  push:
+    paths: ['woc/**', 'tools/clis/**', '.github/workflows/woc-checks.yml']
+  pull_request:
+    paths: ['woc/**', 'tools/clis/**', '.github/workflows/woc-checks.yml']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node --test woc/tests/*.test.mjs
+      - run: node --check woc/check.mjs
+      - name: Check marketing CLI syntax without making API requests
+        run: |
+          for file in tools/clis/*.js; do
+            node --check "$file"
+          done
