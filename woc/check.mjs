@@ -63,11 +63,19 @@ export function checkDeal(input, now = new Date()) {
     if (grossProfitPerUnit <= 0) errors.push('Deal has no positive gross contribution');
   }
   const quoteReady = quoteMissing.length === 0 && errors.length === 0;
+  // Commercial acceptance is distinct from technical quotation readiness.
+  // Evidence references are placeholders until independently verified.
+  const wonMissing = [];
+  if (!text(input.buyerAcceptanceEvidence)) wonMissing.push('buyer acceptance or signed PO evidence reference');
+  if (!text(input.paymentSecurityEvidence)) wonMissing.push('verified payment security evidence reference');
+  if (input.ownerCommercialApproval !== true) wonMissing.push('explicit owner commercial approval');
+  const wonReady = quoteReady && wonMissing.length === 0;
   const warnings = ['Evidence references are required but their authenticity and destination rules must be verified by a person.'];
   if (input.marketingConsent !== true) warnings.push('No verified marketing opt-in: do not add this lead to advertising audiences or marketing lists.');
   return {
-    sourceEventId: id, stage, qualificationReady, quoteReady,
-    requestedStageReady: ['quote', 'won'].includes(stage) ? quoteReady : qualificationReady,
+    sourceEventId: id, stage, qualificationReady, quoteReady, wonReady,
+    requestedStageReady: stage === 'won' ? wonReady : stage === 'quote' ? quoteReady : qualificationReady,
+    missingWonFields: wonMissing,
     missingQualificationFields: missing, missingQuoteFields: [...new Set(quoteMissing)], errors, warnings, economics,
     automationStatus: 'offline-only',
     dedupeNote: 'Stable ID identifies a source record; destination stage events need a separate stage/version key and a persistent uniqueness constraint.'
