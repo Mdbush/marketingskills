@@ -4,11 +4,13 @@ on:
   push:
     branches: [main]
     paths:
-      - "**/SKILL.md"
+      - "skills/**"
+      - ".github/workflows/validate-skill.yml"
   pull_request:
     branches: [main]
     paths:
-      - "**/SKILL.md"
+      - "skills/**"
+      - ".github/workflows/validate-skill.yml"
 
 concurrency:
   group: validate-skill-${{ github.ref }}
