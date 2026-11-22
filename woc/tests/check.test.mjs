@@ -28,3 +28,19 @@ test('does not coerce strings, fractional units, null or missing source IDs', ()
   for (const patch of [{ quantity: '5' }, { quantity: 1.5 }, { sourceRecordId: '' }]) assert.equal(checkDeal({ ...valid(), ...patch }, now).qualificationReady, false);
   assert.throws(() => checkDeal(null));
 });
+
+test('won stage requires separate commercial acceptance and payment security', () => {
+  const draftWon = checkDeal({ ...valid(), stage: 'won' }, now);
+  assert.equal(draftWon.quoteReady, true);
+  assert.equal(draftWon.wonReady, false);
+  assert.equal(draftWon.requestedStageReady, false);
+  assert.equal(draftWon.missingWonFields.length, 3);
+
+  const approved = checkDeal({
+    ...valid(), stage: 'won', buyerAcceptanceEvidence: 'signed-PO-ref',
+    paymentSecurityEvidence: 'verified-payment-ref', ownerCommercialApproval: true
+  }, now);
+  assert.equal(approved.wonReady, true);
+  assert.equal(approved.requestedStageReady, true);
+  assert.equal(approved.sourceEventId, draftWon.sourceEventId);
+});
